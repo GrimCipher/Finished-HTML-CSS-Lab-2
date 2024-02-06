@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ddd; /* Set background color for the whole page */
+}
+
+#top-bar {
+    background-color: #333;
+    height: 50px;
+    width: 100%;
+}
+
+#left-side {
+    background-color: #ddd;
+    float: left;
+    width: 20%;
+    height: calc(100vh - 100px); /* Subtracting the height of top and bottom bars */
+}
+
+#center {
+    background-color: #fff;
+    float: left;
+    width: 60%;
+    height: calc(100vh - 100px); /* Subtracting the height of top and bottom bars */
+}
+
+#right-side {
+    background-color: #ddd;
+    float: left;
+    width: 20%;
+    height: calc(100vh - 100px); /* Subtracting the height of top and bottom bars */
+}
+
+#bottom-bar {
+    background-color: #000;
+    height: 50px;
+    width: 60%;
+    clear: both;
+    margin-left: 376px;
+}
